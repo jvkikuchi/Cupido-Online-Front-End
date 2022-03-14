@@ -1,0 +1,15 @@
+.NotFound {
+  padding-top: 100px;
+  text-align: center;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: bold;
+  color: crimson;
+}
+
+.NotFound h3 {
+  margin-top: 50px;
+  font-size: 4rem;
+  font-weight: 600;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: bold;
+}

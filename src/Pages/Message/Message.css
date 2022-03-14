@@ -1,0 +1,33 @@
+.panel{
+  margin-top: 1.5rem;
+  font-family: 'Fredoka', sans-serif;
+  word-wrap: break-word;
+  max-width: 400px;
+  min-width: 400px;
+  border-radius: 50px;
+  
+}
+
+.panel-heading {
+  padding: 0;
+  font-size: 2em;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  text-align: center;
+}
+
+.panel-body {
+  font-size: 1.4em;
+  text-align: center;
+}
+
+.panel-footer {
+  text-align: center;
+  font-weight: bold;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background-color: mistyrose;
+}
+/* -------------------- */
+
+

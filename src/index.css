@@ -1,0 +1,20 @@
+select.form-control,
+textarea.form-control,
+input.form-control {
+  font-size: 16px;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(180deg, rgba(227,160,160,0.6522680116968662) 1%, rgb(241, 175, 175) 47%, rgba(229,122,122,1) 100%);
+}
+
+body * {
+  margin: 0;
+}
+
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+

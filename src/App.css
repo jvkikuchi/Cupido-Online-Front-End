@@ -1,0 +1,48 @@
+.App {
+  margin-top: 15px;
+  margin-top: 0;
+  width: 100vw;
+}
+.App .navbar-brand {
+  font-weight: bold;
+  font-family: 'Sansita Swashed', cursive;
+  color: crimson;
+  font-size: 2em;
+}
+
+App .navbar-brand:hover {
+  color: crimson;
+}
+
+.navbar-brand:hover{
+  color: crimson;
+}
+
+.navbar-default {
+  background-color: mistyrose;
+  border: none;
+  margin-top: 0;
+}
+
+.navbar-default .navbar-nav>li>a{
+  font-family: 'Fredoka', sans-serif;;
+  color: crimson;
+  background-color: mistyrose;
+  font-weight: bold;
+  font-size: 1.5em;
+
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  color: crimson;
+  background-color: mistyrose;
+  
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+ color: crimson;
+}
+
+.control-label{
+  font-family: 'Fredoka', sans-serif;
+  font-weight: bold;
+}
