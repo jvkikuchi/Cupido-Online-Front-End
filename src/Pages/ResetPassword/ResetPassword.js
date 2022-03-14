@@ -98,7 +98,7 @@ export default function ResetPassword() {
     return (
       <form onSubmit={handleConfirmClick}>
         <FormGroup bsSize="large" controlId="code">
-          <ControlLabel>Confirmation Code</ControlLabel>
+          <ControlLabel>Código de Confirmação</ControlLabel>
           <FormControl
             autoFocus
             type="tel"
@@ -106,12 +106,12 @@ export default function ResetPassword() {
             onChange={handleFieldChange}
           />
           <HelpBlock>
-            Please check your email ({fields.email}) for the confirmation code.
+            Por favor, digite o códico enviado para o e-mail({fields.email}).
           </HelpBlock>
         </FormGroup>
         <hr />
         <FormGroup bsSize="large" controlId="password">
-          <ControlLabel>New Password</ControlLabel>
+          <ControlLabel>Nova Senha</ControlLabel>
           <FormControl
             type="password"
             value={fields.password}
@@ -119,7 +119,7 @@ export default function ResetPassword() {
           />
         </FormGroup>
         <FormGroup bsSize="large" controlId="confirmPassword">
-          <ControlLabel>Confirm Password</ControlLabel>
+          <ControlLabel>Confirmar Senha</ControlLabel>
           <FormControl
             type="password"
             value={fields.confirmPassword}
@@ -143,10 +143,10 @@ export default function ResetPassword() {
     return (
       <div className="success">
         <Glyphicon glyph="ok" />
-        <p>Your password has been reset.</p>
+        <p>Sua senha foi resetada.</p>
         <p>
           <Link to="/login">
-            Click here to login with your new credentials.
+            Clique aqui para fazer login.
           </Link>
         </p>
       </div>
